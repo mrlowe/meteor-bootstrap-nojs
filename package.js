@@ -1,10 +1,10 @@
 Package.describe({
   name: 'mrlowe:bootstrap-nojs',
-  version: '0.0.1',
+  version: '0.0.2',
   // Brief, one-line summary of the package.
   summary: 'This package provides bootstrap 3 css and fonts, but no javascript. For use with react-bootstrap.',
   // URL to the Git repository containing the source code for this package.
-  git: '',
+  git: 'https://github.com/mrlowe/meteor-bootstrap-nojs',
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
   documentation: 'README.md'
@@ -15,6 +15,7 @@ Package.onUse(function(api) {
   api.use('ecmascript');
   api.mainModule('meteor-bootstrap-nojs.js');
   api.addFiles('bootstrap.css', 'client');
+  api.addFiles('glyphicons.css', 'client');
   api.addAssets([
       'fonts/glyphicons-halflings-regular.eot',
       'fonts/glyphicons-halflings-regular.svg',
