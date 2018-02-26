@@ -2,4 +2,4 @@
 
 // Variables exported by this module can be imported by other packages and
 // applications. See meteor-bootstrap-nojs-tests.js for an example of importing.
-export const name = 'meteor-bootstrap-nojs';
+export const name = 'mrlowe:bootstrap-nojs';

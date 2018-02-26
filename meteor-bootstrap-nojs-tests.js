@@ -2,10 +2,10 @@
 import { Tinytest } from "meteor/tinytest";
 
 // Import and rename a variable exported by meteor-bootstrap-nojs.js.
-import { name as packageName } from "meteor/meteor-bootstrap-nojs";
+import { name as packageName } from "meteor/mrlowe:bootstrap-nojs";
 
 // Write your tests here!
 // Here is an example.
 Tinytest.add('meteor-bootstrap-nojs - example', function (test) {
-  test.equal(packageName, "meteor-bootstrap-nojs");
+  test.equal(packageName, "mrlowe:bootstrap-nojs");
 });

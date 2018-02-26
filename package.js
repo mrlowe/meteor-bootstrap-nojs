@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'bootstrap-nojs',
+  name: 'mrlowe:bootstrap-nojs',
   version: '0.0.1',
   // Brief, one-line summary of the package.
-  summary: '',
+  summary: 'This package provides bootstrap 3 css and fonts, but no javascript. For use with react-bootstrap.',
   // URL to the Git repository containing the source code for this package.
   git: '',
   // By default, Meteor will default to using README.md for documentation.
@@ -27,6 +27,6 @@ Package.onUse(function(api) {
 Package.onTest(function(api) {
   api.use('ecmascript');
   api.use('tinytest');
-  api.use('meteor-bootstrap-nojs');
+  api.use('mrlowe:bootstrap-nojs');
   api.mainModule('meteor-bootstrap-nojs-tests.js');
 });
